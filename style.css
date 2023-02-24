@@ -1,0 +1,174 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
+
+/* unvisited link */
+a:link {
+  color: #D98555;
+  font-family: 'Lato', times, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* visited link */
+a:visited {
+  color:#F2F2F2;
+   font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color:#D98555;
+   font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+/* selected link */
+a:active {
+  color: #131D26;
+   font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+h1{
+  font-family: 'Poppins', times, sans-serif;
+}
+
+p{
+  font-family: 'Lato', times, sans-serif;
+}
+
+.header{
+  background-color:#082B59;
+}
+
+nav a{
+  font-family: inherit;
+  padding: .8rem;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+.fa-solid{
+  color:white;
+  margin-right:3px;
+}
+
+.logo{
+  width:10rem;
+  display:block;
+  margin: 0 auto;
+ Justify-content: center;
+}
+
+.navigation{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+}
+
+.divider{
+  margin-top:1rem;
+  height:1rem;
+  width:100%;
+  background-color:#D98555;
+}
+ 
+.content{
+  width:43rem;
+  height:30rem;
+  padding:1rem;
+  margin: 2rem 10rem;
+  font-size: .9rem;
+}
+
+.card{
+  background-color:#59331D;
+  width:12rem;
+  border-radius: 1rem;
+  Margin-left:43rem;
+  position:relative;
+  bottom:17rem;
+  display: inline-block;
+  flex-flow: nonwrap;
+  border: solid;
+}
+
+.cardimg{
+  width:100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.card p{
+  color:#F2F2F2;
+  margin:1rem;
+  text-align:center;
+  font-size: .8rem;
+  
+}
+
+.button {
+  background-color: #59331D;
+  border-radius:1rem;
+  border: solid;
+  padding: 1rem 2rem;
+  display: inline-block;
+  flex-flow: nowrap;
+}
+
+.button a{
+  color:#F2F2F2;
+  font-family:inherit;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+
+}
+
+.social a{
+  color:white;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  padding: .8rem;
+  
+}
+
+.media p{
+   color:white;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+.fa-brands{
+  color:white;
+  margin-right:3px;
+}
+
+.footer{
+  background-color:#082B59;
+  text-align:center;
+  color: white;
+}
